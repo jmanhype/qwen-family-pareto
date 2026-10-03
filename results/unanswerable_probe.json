@@ -1,0 +1,18 @@
+[
+  {
+    "max_tokens": 1500,
+    "completion_tokens": 1500,
+    "finish_reason": null,
+    "latency_s": 43.492,
+    "content_tail": "",
+    "has_answer_line": false
+  },
+  {
+    "max_tokens": 4000,
+    "completion_tokens": 4000,
+    "finish_reason": null,
+    "latency_s": 111.44,
+    "content_tail": "",
+    "has_answer_line": false
+  }
+]

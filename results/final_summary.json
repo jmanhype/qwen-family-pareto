@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "tiers": [
+      "Qwen/Qwen3.8-27B",
+      "Qwen/Qwen3.5-35B-A3B",
+      "Qwen/Qwen3.5-122B-A10B",
+      "Qwen/Qwen3.5-397B-A17B",
+      "Qwen-Ambassador/Qwen3.8-Max"
+    ],
+    "tasks_total": 16,
+    "tasks_answerable": 12,
+    "tasks_unanswerable": 4,
+    "pareto_non_dominated": [
+      "Qwen-Ambassador/Qwen3.8-Max"
+    ],
+    "pareto_dominated": [
+      "Qwen/Qwen3.5-122B-A10B",
+      "Qwen/Qwen3.5-35B-A3B",
+      "Qwen/Qwen3.5-397B-A17B",
+      "Qwen/Qwen3.8-27B",
+      "local Qwen3.8-27B Q4_K_M (3090)"
+    ],
+    "arms_total": 6,
+    "cloud_arms": [
+      "Qwen/Qwen3.8-27B",
+      "Qwen/Qwen3.5-35B-A3B",
+      "Qwen/Qwen3.5-122B-A10B",
+      "Qwen/Qwen3.5-397B-A17B",
+      "Qwen-Ambassador/Qwen3.8-Max"
+    ],
+    "local_arm": "local Qwen3.8-27B Q4_K_M (3090)"
+  },
+  "arms": {
+    "Qwen/Qwen3.8-27B": {
+      "answerable_correct": "12/12",
+      "answerable_accuracy": 1.0,
+      "fabrications": 0,
+      "fabrication_rate": 0.0,
+      "abstentions_on_unanswerable": 4,
+      "total_completion_tokens": 3056,
+      "correct_per_1k_tokens": 3.927,
+      "median_latency_s": 4.179,
+      "errors": 0
+    },
+    "Qwen/Qwen3.5-35B-A3B": {
+      "answerable_correct": "12/12",
+      "answerable_accuracy": 1.0,
+      "fabrications": 0,
+      "fabrication_rate": 0.0,
+      "abstentions_on_unanswerable": 4,
+      "total_completion_tokens": 20912,
+      "correct_per_1k_tokens": 0.574,
+      "median_latency_s": 9.141,
+      "errors": 0
+    },
+    "Qwen/Qwen3.5-122B-A10B": {
+      "answerable_correct": "12/12",
+      "answerable_accuracy": 1.0,
+      "fabrications": 0,
+      "fabrication_rate": 0.0,
+      "abstentions_on_unanswerable": 4,
+      "total_completion_tokens": 15031,
+      "correct_per_1k_tokens": 0.798,
+      "median_latency_s": 7.124,
+      "errors": 0
+    },
+    "Qwen/Qwen3.5-397B-A17B": {
+      "answerable_correct": "12/12",
+      "answerable_accuracy": 1.0,
+      "fabrications": 0,
+      "fabrication_rate": 0.0,
+      "abstentions_on_unanswerable": 4,
+      "total_completion_tokens": 16397,
+      "correct_per_1k_tokens": 0.732,
+      "median_latency_s": 14.039,
+      "errors": 0
+    },
+    "Qwen-Ambassador/Qwen3.8-Max": {
+      "answerable_correct": "12/12",
+      "answerable_accuracy": 1.0,
+      "fabrications": 0,
+      "fabrication_rate": 0.0,
+      "abstentions_on_unanswerable": 4,
+      "total_completion_tokens": 2653,
+      "correct_per_1k_tokens": 4.523,
+      "median_latency_s": 5.245,
+      "errors": 0
+    },
+    "local Qwen3.8-27B Q4_K_M (3090)": {
+      "answerable_correct": "12/12",
+      "answerable_accuracy": 1.0,
+      "abstained_on_unanswerable": 3,
+      "invented_answer": 0,
+      "budget_exhausted": 1,
+      "fail_closed_rate": 0.75,
+      "total_completion_tokens": 3320,
+      "correct_per_1k_tokens": 3.614,
+      "median_latency_s": 7.671,
+      "errors": 0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "local Qwen3.8-27B Q4_K_M (3090)": {
+    "answerable_correct": "12/12",
+    "answerable_accuracy": 1.0,
+    "fabrications": 1,
+    "fabrication_rate": 0.25,
+    "abstentions_on_unanswerable": 3,
+    "total_completion_tokens": 3320,
+    "correct_per_1k_tokens": 3.614,
+    "median_latency_s": 7.671,
+    "errors": 0
+  }
+}
